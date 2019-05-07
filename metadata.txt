@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=addandzoom
+qgisMinimumVersion=2.0
+description=Add in tiger road data by name and zoom to a coordinate
+version=0.1
+author=Wayne Enterprise
+email=samkguerrero@gmail.com
+
+about=Adds in tiger road data by the given state and county name, then zooms to the given coordinates.
+
+tracker=https://github.com/samkguerrero/addandzoom/issues
+repository=https://github.com/samkguerrero/addandzoom
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=tiger
+
+homepage=https://github.com/samkguerrero/addandzoom
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
